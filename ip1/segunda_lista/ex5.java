@@ -10,8 +10,7 @@ public class ex5
         double x1 = 0, y1 = 0; // Vertice superior direito
         double x2 = 0, y2 = 0; // Vertice inferior esquerdo
         double x3 = 0, y3 = 0; // Vertice infeiror direito
-        
-        
+                
         System.out.println("Informar a coordenada superior esquerda");
         System.out.print("x = ");
         XCoordSupEsq = input.nextDouble();
@@ -22,8 +21,7 @@ public class ex5
         System.out.print("Informar a altura ");
         altura = input.nextInt();
         System.out.printf("Temos que: coordenada superior esquerda (%.1f, %.1f), largura = %d, altura = %d\n", XCoordSupEsq, YCoordSupEsq, largura, altura);
-        
-        
+                
         x1 = XCoordSupEsq + largura;
         y1 = YCoordSupEsq;
         x2 = XCoordSupEsq;

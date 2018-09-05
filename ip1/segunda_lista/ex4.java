@@ -20,7 +20,6 @@ public class ex4
         metros = distancia * 1000;
         tempo = (horas * 3600) + (minutos * 60) + segundos;
         VelocidadeMedia = metros/tempo;
-
         
         System.out.println();
         System.out.printf("Velocoidade media eh: %.4f m/s\n", VelocidadeMedia);
