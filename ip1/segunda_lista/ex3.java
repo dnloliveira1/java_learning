@@ -11,8 +11,7 @@ public class ex3
         double QuantLatas = 0; // Vamos usar o propio QuantLatas no formato double
         double raio = 0, diametro = 0, altura = 0, AreaExt = 0, AreaTot = 0, custo = 45, CustFinal = 0, contem = 5, pinta = 3, UmaLataFaz = 0;
         
-        System.out.println("Favor, informar a altura, o diametro e a quantidade de tanques, nessa ordem");
-        
+        System.out.println("Favor, informar a altura, o diametro e a quantidade de tanques, nessa ordem");        
         altura = input.nextDouble();
         diametro = input.nextDouble();
         QuantTanq = input.nextInt();

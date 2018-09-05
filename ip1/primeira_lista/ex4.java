@@ -4,11 +4,11 @@ public class ex4
 {
     public static void main(String[] args)
     {
-	    Scanner input = new Scanner (System.in);
-	    double tempo = 0, vel = 0, dist = 0, litros = 0, faz = 15;
+        Scanner input = new Scanner (System.in);
+        double tempo = 0, vel = 0, dist = 0, litros = 0, faz = 15;
 
-	    System.out.println("Informe o tempo pecorrido em horas e a velocidade media percorida em km/h, nessa ordem");
-	    tempo = input.nextDouble();
+        System.out.println("Informe o tempo pecorrido em horas e a velocidade media percorida em km/h, nessa ordem");
+        tempo = input.nextDouble();
         vel = input.nextDouble();
         dist = tempo * vel;
         litros = dist * faz;

@@ -1,10 +1,8 @@
 import java.util.Scanner;
 
 public class ex2
-
 {
     public static void main(String[] args)
-
     {
         Scanner input = new Scanner (System.in);
         double diametro = 0, altura = 0, area = 0, volume = 0, elevado = 2.0;

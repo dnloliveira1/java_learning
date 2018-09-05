@@ -8,7 +8,6 @@ public class ex1
         double preco = 0, PrecoFinal = 0, PercentualDesconto = 0, ValorDesconto = 0;
         
         System.out.println("Favor, inserir o preço do produto e o percentual de desconto, em porcentagem, nessa ordem");
-        
         preco = input.nextDouble();
         PercentualDesconto = input.nextDouble();
         

@@ -32,13 +32,14 @@ public class ex5
             pontuacao = pontuacao * 2;
             System.out.printf("Parabens, sua pontuacao foi %.0f\n", pontuacao);
         }
-        if(treal < tideal) // Se Atrasar
+        else if(treal < tideal) // Se Atrasar
         {
             pontuacao = treal - tideal;
             pontuacao = pontuacao * 1;
             System.out.printf("Parabens, sua pontuacao foi %.0f", pontuacao);
+  
         }
-        if(treal == tideal) // Pontuacao zerada
+        else // Pontuacao zerada
         {    
             pontuacao = 0;
             System.out.println("Parabens, vc eh o ganhador");
