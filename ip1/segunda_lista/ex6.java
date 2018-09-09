@@ -4,7 +4,7 @@ public class ex6
 {
     public static void main(String[] args)
     {
-        Scanner input  = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         double raio = 0; // Tem que ser double, ja que, por emxemplo, uma divisao envolvendo pelo menos um double, ela ja ira retornar no formato double
         double XCoordSupEsq = 0, YCoordSupEsq = 0;
         double XCoordInfDir = 0, YCoordInfDir = 0;

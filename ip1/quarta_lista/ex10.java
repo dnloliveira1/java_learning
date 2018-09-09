@@ -45,8 +45,7 @@ public class ex10
         */
         
         total = HorasExtras - (2.0/3.0 * HorasFaltou); // 2/3 = (int) 0 <=> 2.0/3.0 = (double) 0.666
-        
-        
+                
         if(total > 40)
             premio = 200;
         else if(total > 30)

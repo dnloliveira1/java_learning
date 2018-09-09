@@ -4,7 +4,7 @@ public class ex2
 {
     public static void main(String[] args)
     {
-        Scanner input  = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         int dias = 0;
         double ValConta = 0, ValMulta = 0, juros = 0, MultaAtraso = 0, JurosAtraso, ValTotal = 0;
         

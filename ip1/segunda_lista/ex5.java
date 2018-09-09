@@ -4,7 +4,7 @@ public class ex5
 {
     public static void main(String[] args)
     {
-        Scanner input  = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         int largura = 0, altura = 0;
         double XCoordSupEsq = 0, YCoordSupEsq = 0;
         double x1 = 0, y1 = 0; // Vertice superior direito

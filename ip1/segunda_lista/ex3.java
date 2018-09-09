@@ -4,7 +4,7 @@ public class ex3
 {
     public static void main(String[] args)
     {
-        Scanner input  = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         int QuantTanq = 0;
         // int QunatLatas = 0;
         // A variavel QuantLatas tem de ser do tipo double, ja que vai receber da funcao Math.ceil (que retorna em double)

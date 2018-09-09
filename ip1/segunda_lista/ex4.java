@@ -4,7 +4,7 @@ public class ex4
 {
     public static void main(String[] args)
     {
-        Scanner input  = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         int horas = 0, minutos = 0, segundos = 0, tempo = 0;
         double distancia = 0, metros = 0, VelocidadeMedia = 0;
         
