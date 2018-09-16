@@ -17,7 +17,6 @@ public class ex9
         else
             conta = (consumo * PorConsumo) + IluPublic;
             
-        System.out.printf("A sua conta de energia sera R$%.2f\n", conta);
-        
+        System.out.printf("A sua conta de energia sera R$%.2f\n", conta);        
     }
 }

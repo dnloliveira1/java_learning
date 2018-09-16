@@ -15,32 +15,17 @@ public class ex8
         System.out.println();
         
         media = (nota1 + nota2) / 2;
+        System.out.printf("O aluno obteve uma media %.2f e ", media); 
         
         if(media >= 7)
-        {
-            System.out.printf("O aluno obteve uma media %.2f e esta ", media); 
-            System.out.println("aprovado por media");
-        }
+            System.out.println("esta aprovado por media");
         else if(media < 3)
-        {
-            System.out.printf("O aluno obteve uma media %.2f e esta ", media); 
-            System.out.println("reprovado por media");
-        }
+            System.out.println("esta reprovado por media");
         else
         {
-            System.out.println("Voce fara final");
-            System.out.println();
-            System.out.print("Qual foi sua nota na final? ");
-            nota3 = input.nextDouble();
-            
-            media = (nota3 + media) / 2;
-            
-            System.out.printf("O aluno obteve uma media %.2f e esta ", media);
-            
-            if(media >= 5)
-                System.out.println("aprovado");
-            else
-                System.out.println("reprovado");
+            nota3 = 10 - media;
+            System.out.printf("fara o exame final, ");
+            System.out.printf("na final precisa tirar %.2f para ser aprovado\n", nota3);
         }
     }
 }
